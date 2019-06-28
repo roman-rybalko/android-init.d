@@ -1,0 +1,4 @@
+service sysvinit /system/bin/sysvinit.sh
+    class late_start
+    user root
+    oneshot

@@ -1,0 +1,60 @@
+01-01 03:01:31.207   476   476 I PackageManager: Adjusting ABI for com.termux.boot to arm64-v8a (requirer=com.termux, scannedPackage=null)
+01-01 03:01:31.226   476   476 W PackageManager: Not granting permission android.permission.WRITE_EXTERNAL_STORAGE to package com.termux because it was previously installed without
+01-01 03:01:31.226   476   476 W PackageManager: Unknown permission android.permission.FOREGROUND_SERVICE in package com.termux
+01-01 03:01:31.226   476   476 W PackageManager: Not granting permission android.permission.READ_EXTERNAL_STORAGE to package com.termux because it was previously installed without
+01-01 03:01:49.198   476   698 W PackageManager: Not granting permission android.permission.WRITE_EXTERNAL_STORAGE to package com.termux because it was previously installed without
+01-01 03:01:49.198   476   698 W PackageManager: Unknown permission android.permission.FOREGROUND_SERVICE in package com.termux
+01-01 03:01:49.198   476   698 W PackageManager: Not granting permission android.permission.READ_EXTERNAL_STORAGE to package com.termux because it was previously installed without
+06-28 01:45:48.444   476  1357 I ActivityManager: Start proc 1764:com.termux.boot/u0a54 for broadcast com.termux.boot/.BootReceiver
+06-28 01:45:48.867  1764  1764 I termux  : Executed files at boot: 00-wake-lock.sh, 10-sshd.sh, 20-ftpd.sh, 30-httpd.sh
+06-28 01:45:48.917   476  1276 I ActivityManager: Start proc 1803:com.termux/u0a54 for service com.termux/.app.TermuxService
+06-28 01:45:49.416  1803  1828 I termux-task: [1826] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 01:45:49.635  1829  1829 I lighttpd: 2019-06-28 01:45:49: (/home/builder/.termux-build/lighttpd/src/src/server.c.1521) server started (lighttpd/1.4.54) 
+06-28 01:55:48.932   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. 848f87e #u0a54/0 com.termux.boot/.BootJobService
+06-28 01:56:18.963  1803  2700 I termux-task: [2697] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 01:56:19.042  2701  2701 I lighttpd: 2019-06-28 01:56:19: (/home/builder/.termux-build/lighttpd/src/src/network.c.307) can't bind to socket: 0.0.0.0:10080 Address already in use 
+06-28 01:56:19.047  1803  2700 I termux-task: [2697] exited normally
+06-28 01:56:24.034  1803  2719 I termux-task: [2717] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/10-sshd.sh]
+06-28 01:56:24.162  1803  2719 I termux-task: [2717] exited normally
+06-28 01:57:53.152  1803  2756 I termux-task: [2754] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/00-wake-lock.sh]
+06-28 01:57:53.932  2758  2758 D AndroidRuntime: Calling main entry com.example.termuxam.Am
+06-28 01:57:54.027  1803  2756 I termux-task: [2754] exited normally
+06-28 02:06:18.998   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. 3624571 #u0a54/0 com.termux.boot/.BootJobService
+06-28 02:07:19.056  1803  2846 I termux-task: [2844] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 02:07:19.104  2847  2847 I lighttpd: 2019-06-28 02:07:19: (/home/builder/.termux-build/lighttpd/src/src/network.c.307) can't bind to socket: 0.0.0.0:10080 Address already in use 
+06-28 02:07:19.108  1803  2846 I termux-task: [2844] exited normally
+06-28 02:17:19.090   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. 672c1b7 #u0a54/0 com.termux.boot/.BootJobService
+06-28 02:19:19.135  1803  2937 I termux-task: [2935] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 02:19:19.182  2938  2938 I lighttpd: 2019-06-28 02:19:19: (/home/builder/.termux-build/lighttpd/src/src/network.c.307) can't bind to socket: 0.0.0.0:10080 Address already in use 
+06-28 02:19:19.183  1803  2937 I termux-task: [2935] exited normally
+06-28 02:29:19.170   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. 13a49a2 #u0a54/0 com.termux.boot/.BootJobService
+06-28 02:33:19.210  1803  3036 I termux-task: [3034] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 02:33:19.264  3038  3038 I lighttpd: 2019-06-28 02:33:19: (/home/builder/.termux-build/lighttpd/src/src/network.c.307) can't bind to socket: 0.0.0.0:10080 Address already in use 
+06-28 02:33:19.266  1803  3036 I termux-task: [3034] exited normally
+06-28 02:43:19.246   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. 1674102 #u0a54/0 com.termux.boot/.BootJobService
+06-28 02:51:19.278  1803  3213 I termux-task: [3211] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 02:51:19.332  3214  3214 I lighttpd: 2019-06-28 02:51:19: (/home/builder/.termux-build/lighttpd/src/src/network.c.307) can't bind to socket: 0.0.0.0:10080 Address already in use 
+06-28 02:51:19.333  1803  3213 I termux-task: [3211] exited normally
+06-28 03:01:19.314   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. e361180 #u0a54/0 com.termux.boot/.BootJobService
+06-28 03:08:59.737   476   476 I ActivityManager: Killing 1764:com.termux.boot/u0a54 (adj 906): empty #4
+06-28 03:17:19.350   476   476 I ActivityManager: Start proc 3882:com.termux.boot/u0a54 for service com.termux.boot/.BootJobService
+06-28 03:17:19.789  1803  3900 I termux-task: [3898] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 03:17:19.905  3901  3901 I lighttpd: 2019-06-28 03:17:19: (/home/builder/.termux-build/lighttpd/src/src/network.c.307) can't bind to socket: 0.0.0.0:10080 Address already in use 
+06-28 03:17:19.910  1803  3900 I termux-task: [3898] exited normally
+06-28 03:27:19.818   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. 376d82f #u0a54/0 com.termux.boot/.BootJobService
+06-28 04:02:56.466  1803  4235 I termux-task: [4233] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 04:02:56.511  4236  4236 I lighttpd: 2019-06-28 04:02:56: (/home/builder/.termux-build/lighttpd/src/src/network.c.307) can't bind to socket: 0.0.0.0:10080 Address already in use 
+06-28 04:02:56.516  1803  4235 I termux-task: [4233] exited normally
+06-28 04:12:56.466   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. 4c6f36f #u0a54/0 com.termux.boot/.BootJobService
+06-28 04:51:19.477   476  2054 I ActivityManager: Killing 3882:com.termux.boot/u0a54 (adj 906): empty #4
+06-28 05:16:56.512   476   476 I ActivityManager: Start proc 4860:com.termux.boot/u0a54 for service com.termux.boot/.BootJobService
+06-28 05:16:56.586  1803  4879 I termux-task: [4877] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 05:16:56.636  4880  4880 I lighttpd: 2019-06-28 05:16:56: (/home/builder/.termux-build/lighttpd/src/src/network.c.307) can't bind to socket: 0.0.0.0:10080 Address already in use 
+06-28 05:16:56.637  1803  4879 I termux-task: [4877] exited normally
+06-28 05:26:56.594   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. 54663e6 #u0a54/0 com.termux.boot/.BootJobService
+06-28 06:02:59.519   476  2075 I ActivityManager: Killing 4860:com.termux.boot/u0a54 (adj 906): empty #4
+06-28 07:34:56.631   476   476 I ActivityManager: Start proc 6152:com.termux.boot/u0a54 for service com.termux.boot/.BootJobService
+06-28 07:34:56.709  1803  6173 I termux-task: [6171] starting: [/data/data/com.termux/files/usr/bin/sh, /data/data/com.termux/files/home/.termux/boot/30-httpd.sh]
+06-28 07:34:56.787  6174  6174 I lighttpd: 2019-06-28 07:34:56: (/home/builder/.termux-build/lighttpd/src/src/network.c.307) can't bind to socket: 0.0.0.0:10080 Address already in use 
+06-28 07:34:56.788  1803  6173 I termux-task: [6171] exited normally
+06-28 07:44:56.708   476   476 I JobServiceContext: Client timed out while executing (no jobFinished received). sending onStop. 46fce47 #u0a54/0 com.termux.boot/.BootJobService

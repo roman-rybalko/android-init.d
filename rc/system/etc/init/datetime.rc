@@ -1,0 +1,3 @@
+service datetime /system/bin/date 0626200019
+    class main
+    oneshot

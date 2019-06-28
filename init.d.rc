@@ -1,0 +1,11 @@
+# System V init.d support
+
+on boot
+    start initd
+
+service initd /system/bin/init.d.sh
+    disabled
+    oneshot
+    user root
+    group root
+    seclabel u:r:su:s0
