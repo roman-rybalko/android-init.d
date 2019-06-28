@@ -4,20 +4,22 @@
 
 init_d_dir="/sdcard/init.d"
 log="/data/local/tmp/init.d.log"
+wd="/data/local/tmp"
 
 umask 022
-[ -n "$1" ] || exec "$0" logged >"$log" 2>&1
+cd "$wd"
+[ -n "$1" ] || exec "$0" logged >"$log" 2>&1 </dev/null
+
+set -x
 
 while [ ! -e "$init_d_dir" ]; do
-    echo "Waiting for $init_d_dir"
     sleep 1
 done
-echo "$init_d_dir ready"
 
 for s in "$init_d_dir"/*.sh; do
     echo "$s"
 done | sort | while read s; do
-    echo "Executing $s"
-    sh "$s" >>"$s".log 2>&1
+    sh "$s" >"$s".log 2>&1
 done
-echo "$init_d_dir finished"
+
+exit 0
