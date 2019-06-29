@@ -1,6 +1,0 @@
-on boot
-    user root
-    exec -- /system/bin/am startservice -n com.termux/com.termux.app.TermuxService \
-        -a com.termux.service_execute \
-        -d com.termux.file:///data/data/com.termux/files/home/.termux/boot.sh \
-        --ez com.termux.execute.background true

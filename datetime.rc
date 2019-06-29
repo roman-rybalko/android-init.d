@@ -1,2 +1,0 @@
-on post-fs
-    exec -- /system/bin/date 0626185819

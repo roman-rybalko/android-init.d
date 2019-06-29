@@ -1,5 +1,0 @@
-on post-fs
-    exec -- /system/xbin/su root /system/bin/test.sh post-fs
-
-on boot
-    exec -- /system/xbin/su root /system/bin/test.sh boot

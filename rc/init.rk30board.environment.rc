@@ -1,2 +1,0 @@
-on init
-    export EXTERNAL_STORAGE /sdcard

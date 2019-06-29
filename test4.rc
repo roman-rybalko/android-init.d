@@ -1,5 +1,0 @@
-on post-fs
-    exec -- /system/bin/touch /dev/xxx
-
-on boot
-    exec -- /system/bin/touch /sdcard/xxx
