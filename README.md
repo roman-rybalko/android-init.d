@@ -3,7 +3,7 @@ This is a set of scripts to provide init.d on Android.
 Tested on Android 7.1.2 with SELinux enabled.
 
 ## Features
-- init.d is on the shared storage (/sdcard) for convenience
+- init.d is on the shared storage (/sdcard)
 - extensive logging
 - SELinux support
 
